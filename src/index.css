@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+@layer utilities {
+  .bg_color {
+    @apply bg-[#202020];
+  }
+  .logo {
+    @apply text-xl font-extrabold text-[#f50d32] leading-3;
+  }
+  /* Front-end and mobile App Dev */
+  .h1_bold {
+    @apply text-white text-[44px] font-bold leading-[64px];
+  }
+  /* Just below the above */
+  .hero_text_white {
+    @apply text-white text-[18px] font-normal leading-[28px];
+  }
+  .hero_text_red {
+    @apply text-[#F50D32] text-[20px] font-medium leading-[28px];
+  }
+  /* what we do */
+  .h2_bold {
+    @apply text-white text-center text-3xl font-semibold leading-10;
+  }
+  /* Discover how desig can help: . .  */
+  .h3_bold {
+    @apply text-white text-2xl font-semibold leading-10;
+  }
+  /* eCommerce Mobile App Development */
+  .h4_bold {
+    @apply text-white text-xl font-medium leading-10;
+  }
+  /* research in what we do */
+  .h5_bold {
+    @apply text-white text-base font-medium leading-7;
+  }
+  .paragraph_white {
+    @apply text-white text-base font-normal leading-7;
+  }
+  .learn_more_text {
+    @apply text-white text-sm font-medium leading-7;
+  }
+  .date_experience {
+    @apply text-[#F50D32] text-base font-normal leading-normal;
+  }
+  .skills_progress_bar_text {
+    @apply text-white text-base font-normal leading-7;
+  }
+  /* red bar below titles */
+  .red_bar {
+    @apply w-[100px] h-[2px] bg-[#F50D32];
+  }
+
+  .red_bar_contact {
+    @apply w-[2px] h-[100px] bg-[#F50D32] max-[770px]:w-[100px] max-[770px]:h-[2px];
+  }
+
+  .card {
+    @apply rounded-lg border-2 border-solid border-gray-700 w-[full] h-[full] shadow-sm;
+  }
+  .hero_image {
+    @apply relative w-[481px] h-[587px] max-[770px]:w-[281px] max-[770px]:h-[387px] max-[1230px]:w-[281px] max-[1230px]:h-[387px];
+  }
+  .hero_image_container_media {
+    @apply max-[770px]:w-[281px] max-[770px]:h-[387px] max-[1230px]:w-[281px] max-[1230px]:h-[387px];
+  }
+
+  .hero_image_container {
+    width: 520px;
+    height: 630px;
+    background-image: url(./assets/tile.svg), url(./assets//dots.svg);
+    background-position:
+      left bottom,
+      right top;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 481px, auto;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .hero_image_container {
+      width: 325px;
+      height: 390px;
+      background-size: 281px, auto;
+    }
+  }
+  @media only screen and (max-width: 1230px) {
+    .hero_image_container {
+      width: 325px;
+      height: 390px;
+      background-size: 281px, auto;
+    }
+  }
+
+  .project_image {
+    @apply relative w-[590px] h-[400px] max-[770px]:w-[270px] max-[1230px]:w-[270px];
+  }
+  .project_image_container_media {
+    @apply max-[770px]:w-[390px] max-[770px]:h-[175px] max-[1230px]:w-[390px] max-[1230px]:h-[175px];
+  }
+
+  .project_image_container {
+    width: 590px;
+    height: 375px;
+    background-image: url(./assets/tile2.svg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 560px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .project_image_container {
+      width: 281px;
+      height: 175px;
+      background-size: 260px;
+    }
+  }
+  @media only screen and (max-width: 1230px) {
+    .project_image_container {
+      width: 281px;
+      height: 175px;
+      background-size: 260px;
+    }
+  }
+
+  .button {
+    width: 177px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #f50d32;
+  }
+}
