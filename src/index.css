@@ -11,10 +11,26 @@ body {
 
 @layer utilities {
   .bg_color {
-    @apply bg-[#002e3b];
+    background: rgb(0, 46, 59);
+    background: -moz-radial-gradient(
+      circle,
+      rgba(0, 46, 59, 1) 0%,
+      rgba(0, 8, 18, 1) 100%
+    );
+    background: -webkit-radial-gradient(
+      circle,
+      rgba(0, 46, 59, 1) 0%,
+      rgba(0, 8, 18, 1) 100%
+    );
+    background: radial-gradient(
+      circle,
+      rgba(0, 46, 59, 1) 0%,
+      rgba(0, 8, 18, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#002e3b",endColorstr="#000812",GradientType=1);
   }
   .logo {
-    @apply text-xl font-extrabold text-[#8a9df9] leading-3;
+    @apply text-4xl font-extrabold text-white leading-3;
   }
   /* Front-end and mobile App Dev */
   .h1_bold {

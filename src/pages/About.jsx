@@ -5,6 +5,7 @@ import { FaSearch } from "react-icons/fa";
 import { TbBrandAirtable } from "react-icons/tb";
 import { GrView } from "react-icons/gr";
 import { IoBuild } from "react-icons/io5";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -22,9 +23,13 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap justify-evenly gap-5">
+        <div className="flex flex-wrap justify-evenly gap-7">
           {skills.map((skill) => (
-            <div key={skill.name}>
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              key={skill.name}
+            >
               <SkillsCard
                 icon={
                   skill.icon === "FaSearch" ? (
@@ -42,7 +47,7 @@ const About = () => {
                 name={skill.name}
                 description={skill.description}
               />
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
@@ -60,15 +65,19 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="mt-5 flex flex-wrap justify-evenly gap-5">
+        <div className="mt-5 flex flex-wrap justify-evenly gap-7">
           {experience.map((e) => (
-            <div key={e.name}>
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              key={e.name}
+            >
               <ExperienceCard
                 date={e.date}
                 name={e.name}
                 description={e.description}
               />
-            </div>
+            </motion.div>
           ))}
         </div>
         <div className="mt-[10%] flex flex-wrap justify-evenly">

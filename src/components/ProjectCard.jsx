@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { FaArrowRight } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const ProjectCard = ({ name, description, photo }) => {
   return (
@@ -8,9 +9,11 @@ const ProjectCard = ({ name, description, photo }) => {
         <h3 className="h4_bold w-[492px] max-md:w-full">{name}</h3>
         <p className="paragraph_white w-[472px] max-md:w-full">{description}</p>
         <a href="/">
-          <p className="flex cursor-pointer flex-row items-center gap-3 text-[#8a9df9]">
-            See Details <FaArrowRight color="#8a9df9" />
-          </p>
+          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }}>
+            <p className="flex cursor-pointer flex-row items-center gap-3 text-[#8a9df9]">
+              See Details <FaArrowRight color="#8a9df9" />
+            </p>
+          </motion.div>
         </a>
       </div>
       <div>
