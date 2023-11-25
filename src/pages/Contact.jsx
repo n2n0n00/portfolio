@@ -3,7 +3,7 @@ import { BiLogoGmail } from "react-icons/bi";
 
 const Contact = () => {
   return (
-    <div className="m-20 flex h-[239px] flex-row items-center justify-evenly rounded-xl bg-[#2E2E30] max-[770px]:m-3 max-[770px]:h-full max-md:flex-col">
+    <div className="m-20 flex h-[239px] flex-row items-center justify-evenly rounded-xl bg-[#034558] max-[770px]:m-3 max-[770px]:h-full max-md:flex-col">
       <h1 className="h3_bold relative w-[460px] max-[770px]:m-3 max-[770px]:w-full max-[770px]:text-center">
         Discover How Design Can Help Your Business
       </h1>

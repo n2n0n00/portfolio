@@ -11,10 +11,10 @@ body {
 
 @layer utilities {
   .bg_color {
-    @apply bg-[#202020];
+    @apply bg-[#002e3b];
   }
   .logo {
-    @apply text-xl font-extrabold text-[#f50d32] leading-3;
+    @apply text-xl font-extrabold text-[#8a9df9] leading-3;
   }
   /* Front-end and mobile App Dev */
   .h1_bold {
@@ -25,7 +25,7 @@ body {
     @apply text-white text-[18px] font-normal leading-[28px];
   }
   .hero_text_red {
-    @apply text-[#F50D32] text-[20px] font-medium leading-[28px];
+    @apply text-[#8a9df9] text-[20px] font-medium leading-[28px];
   }
   /* what we do */
   .h2_bold {
@@ -50,18 +50,18 @@ body {
     @apply text-white text-sm font-medium leading-7;
   }
   .date_experience {
-    @apply text-[#F50D32] text-base font-normal leading-normal;
+    @apply text-[#8a9df9] text-base font-normal leading-normal;
   }
   .skills_progress_bar_text {
     @apply text-white text-base font-normal leading-7;
   }
   /* red bar below titles */
   .red_bar {
-    @apply w-[100px] h-[2px] bg-[#F50D32];
+    @apply w-[100px] h-[2px] bg-[#8a9df9];
   }
 
   .red_bar_contact {
-    @apply w-[2px] h-[100px] bg-[#F50D32] max-[770px]:w-[100px] max-[770px]:h-[2px];
+    @apply w-[2px] h-[100px] bg-[#8a9df9] max-[770px]:w-[100px] max-[770px]:h-[2px];
   }
 
   .card {
@@ -77,10 +77,10 @@ body {
   .hero_image_container {
     width: 520px;
     height: 630px;
-    background-image: url(./assets/tile.svg), url(./assets//dots.svg);
+    background-image: url(./assets/tile.svg), url(./assets/dots.svg);
     background-position:
       left bottom,
-      right top;
+      97% 4.5%;
     background-repeat: no-repeat, no-repeat;
     background-size: 481px, auto;
   }
@@ -89,6 +89,9 @@ body {
     .hero_image_container {
       width: 325px;
       height: 390px;
+      background-position:
+        left bottom,
+        90% 10%;
       background-size: 281px, auto;
     }
   }
@@ -96,6 +99,9 @@ body {
     .hero_image_container {
       width: 325px;
       height: 390px;
+      background-position:
+        left bottom,
+        90% 10%;
       background-size: 281px, auto;
     }
   }
@@ -136,6 +142,6 @@ body {
     height: 56px;
     flex-shrink: 0;
     border-radius: 4px;
-    background: #f50d32;
+    background: #8a9df9;
   }
 }

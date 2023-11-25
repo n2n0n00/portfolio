@@ -8,8 +8,8 @@ const ProjectCard = ({ name, description, photo }) => {
         <h3 className="h4_bold w-[492px] max-md:w-full">{name}</h3>
         <p className="paragraph_white w-[472px] max-md:w-full">{description}</p>
         <a href="/">
-          <p className="flex cursor-pointer flex-row items-center gap-3 text-[#F50D32]">
-            See Details <FaArrowRight color="#F50D32" />
+          <p className="flex cursor-pointer flex-row items-center gap-3 text-[#8a9df9]">
+            See Details <FaArrowRight color="#8a9df9" />
           </p>
         </a>
       </div>
