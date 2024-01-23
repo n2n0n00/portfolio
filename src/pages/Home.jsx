@@ -12,12 +12,13 @@ const Home = () => {
             <p className="hero_text_red ">Hi, I&apos;m Athena</p>
 
             <h1 className="h1_bold w-[600px] max-[825px]:w-full">
-              Front End and Occasional Back End Developer
+              Full Stack and Occasional Web3 Developer
             </h1>
             <p className="hero_text_white w-[600px] max-[825px]:w-full">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit mattis.
+              With a keyboard as my trusty sword and lines of code as my magic
+              spells, this web wiz weaves digital wonders into existence.
+              Whether navigating the realms of traditional stacks or boldly
+              venturing into the mystical realms of Web3.
             </p>
           </div>
         </div>

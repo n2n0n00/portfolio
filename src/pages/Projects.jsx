@@ -12,8 +12,8 @@ const Projects = () => {
           <div className="red_bar" />
           <div>
             <p className="paragraph_white w-[500px] text-center max-md:w-[300px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              Elevating Digital Experiences, One Line of Code at a Time: A
+              Showcase of Crafted Brilliance.
             </p>
           </div>
         </div>
@@ -24,6 +24,7 @@ const Projects = () => {
                 name={item.name}
                 description={item.description}
                 photo={item.photo}
+                link={item.link}
               />
             </div>
           ))}

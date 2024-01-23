@@ -13,13 +13,13 @@ const About = () => {
       <div className="m-20 flex flex-col items-center justify-center pb-[10%]">
         <div className="mb-[8%] flex flex-col items-center justify-center gap-8">
           <div>
-            <h2 className="h2_bold">WHAT WE DO</h2>
+            <h2 className="h2_bold">WHAT I DO</h2>
           </div>
           <div className="red_bar" />
           <div>
             <p className="paragraph_white w-[500px] text-center max-md:w-[300px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              Embark on a journey with me as your digital guide, where I
+              seamlessly blend creativity and precision across four key domains.
             </p>
           </div>
         </div>
@@ -60,8 +60,10 @@ const About = () => {
           <div className="red_bar" />
           <div>
             <p className="paragraph_white w-[500px] text-center max-md:w-[300px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              In freelancing, I&apos;ve seamlessly woven together a tapestry of
+              skills, specializing in web development, design, and digital
+              marketing. Navigating global collaborations, I&apos;ve transformed
+              abstract concepts into tangible digital solutions.
             </p>
           </div>
         </div>

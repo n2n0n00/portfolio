@@ -11,18 +11,18 @@ const Contact = () => {
       <div className="red_bar_contact relative m-3 " />
       <div className=" relative flex flex-col items-center justify-center max-[770px]:m-3 max-[770px]:w-full">
         <h3 className="h5_bold">Get In Touch With Me</h3>
-        <p className="learn_more_text">Victoria Street No 1, London</p>
-        <p className="learn_more_text">contactinfo@mobdev.test</p>
+        <p className="learn_more_text"></p>
+        <p className="learn_more_text">athinat690@gmail.com</p>
         <div className="learn_more_text m-3 flex flex-row gap-4">
-          <div>
+          <a href="https://github.com/n2n0n00">
             <FaGithub size={25} />
-          </div>
-          <div>
+          </a>
+          <a href="https://github.com/n2n0n00">
             <BiLogoGmail size={25} />
-          </div>
-          <div>
+          </a>
+          <a href="https://github.com/n2n0n00">
             <FaLinkedin size={25} />
-          </div>
+          </a>
         </div>
       </div>
     </div>
